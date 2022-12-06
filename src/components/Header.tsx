@@ -13,7 +13,7 @@ export function Header() {
 				<nav className="flex gap-8 items-center">
 					<a href="#recursos">Recursos</a>
 					<a href="#preco">Preço</a>
-					<Button />
+					<Button text="Área de membros" isWhite={true} />
 				</nav>
 			</header>
 		</Layout>

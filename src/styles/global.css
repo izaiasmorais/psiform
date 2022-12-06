@@ -2,3 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+a,
+button {
+	cursor: pointer;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+	width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+	background: #14213d;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: #1e3a8a;
+	border-radius: 5px;
+}
