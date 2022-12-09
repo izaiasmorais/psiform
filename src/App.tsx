@@ -1,12 +1,15 @@
+import { Forms } from "./components/Forms";
 import { Header } from "./components/Header";
-import { Layout } from "./components/Layout";
 import { Main } from "./components/Main";
+import { Resources } from "./components/Resources";
 
 function App() {
 	return (
 		<>
 			<Header />
 			<Main />
+			<Resources />
+			<Forms />
 		</>
 	);
 }
