@@ -1,18 +1,26 @@
+import { Button } from "@chakra-ui/react";
+
 interface ButtonProps {
 	text: string;
 	isWhite: boolean;
 }
 
-export function Button({ text, isWhite }: ButtonProps) {
-	const styles = isWhite
-		? "text-blue-900 bg-transparent border-blue-900 hover:text-white hover:bg-blue-900"
-		: "text-white bg-blue-900 border-blue-900 hover:text-blue-900 hover:bg-white";
-
+export function GlobalButton({ text, isWhite }: ButtonProps) {
 	return (
-		<button
-			className={`border-2	px-4 py-2 rounded-full transition-colors ${styles}`}
+		<Button
+			fontWeight={500}
+			maxWidth="max-content"
+			borderRadius="50px"
+			bgColor={isWhite ? "transparent" : "blue.900"}
+			color={isWhite ? "blue.900" : "white"}
+			border="2px solid"
+			borderColor="blue.900"
+			_hover={{
+				bgColor: isWhite ? "blue.900" : "transparent",
+				color: isWhite ? "white" : "blue.900",
+			}}
 		>
 			{text}
-		</button>
+		</Button>
 	);
 }

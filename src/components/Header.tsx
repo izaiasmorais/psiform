@@ -1,21 +1,30 @@
-import { Button } from "./Button";
+import { Flex, Image, Link, Text } from "@chakra-ui/react";
+import { GlobalButton } from "./Button";
 import { Layout } from "./Layout";
 
 export function Header() {
 	return (
 		<Layout>
-			<header className="flex items-center justify-between px-4 py-4">
-				<div className="flex gap-2 items-center">
-					<img src="/psiform.png" alt="Psiform - Formulários psicológicos" />
-					<strong className="font-bold text-xl text-blue-900">Psiform</strong>
-				</div>
-
-				<nav className="flex gap-8 items-center">
-					<a href="#recursos">Recursos</a>
-					<a href="#preco">Preço</a>
-					<Button text="Área de membros" isWhite={true} />
-				</nav>
-			</header>
+			<Flex
+				as="header"
+				alignItems="center"
+				justify="space-between"
+				w="100%"
+				py="1rem"
+			>
+				<Flex alignItems="center" gap=".5rem">
+					<Image src="/psiform.png" alt="Formulários Psicológicos" />
+					<Text as="h1" fontSize="1.25rem" fontWeight={600}>
+						Psiform
+					</Text>
+				</Flex>
+				<Flex as="nav" alignItems="center" gap="2rem">
+					<Text>Soluções</Text>
+					<Text>Recursos</Text>
+					<Link href="#price">Preços</Link>
+					<GlobalButton isWhite text="Área de membros" />
+				</Flex>
+			</Flex>
 		</Layout>
 	);
 }

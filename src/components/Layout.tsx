@@ -1,13 +1,14 @@
-import { ReactNode } from "react"
+import { Flex } from "@chakra-ui/react";
+import { ReactNode } from "react";
 
 interface LayoutProps {
 	children: ReactNode;
 }
 
-export function Layout({children}: LayoutProps) {
+export function Layout({ children }: LayoutProps) {
 	return (
-		<div className="w-full max-w-[1120px] my-0 mx-auto">
+		<Flex w="100%" maxW={1120} mx="auto" my="0">
 			{children}
-		</div>
-	)
+		</Flex>
+	);
 }
