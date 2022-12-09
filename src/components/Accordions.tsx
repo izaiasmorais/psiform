@@ -1,4 +1,4 @@
-import { SimpleGrid, Accordion, Text } from "@chakra-ui/react";
+import { SimpleGrid, Accordion, Text, Box } from "@chakra-ui/react";
 import { GlobalAccordion } from "./GlobalAccordion";
 
 export function Accordions() {
@@ -80,7 +80,7 @@ export function Accordions() {
 				<GlobalAccordion
 					title="Demais formulários atualizados"
 					description={
-						<Text>
+						<Box>
 							<Text fontWeight="500">Atestado Psicológico</Text>
 							Atestado Psicológico – 2 tipos de modelos <br />
 							Atestado de Boa Conduta <br />
@@ -95,7 +95,8 @@ export function Accordions() {
 							<Text fontWeight="500">Avaliação Risco de Suicídio</Text>
 							Risco de Suicídio <br /> <br />
 							<Text fontWeight="500">Atendimento e Evolução</Text>
-							Registro de Atendimento e Evolução – 2 tipos de modelos <br /> <br />
+							Registro de Atendimento e Evolução – 2 tipos de modelos <br />{" "}
+							<br />
 							<Text fontWeight="500">Atendimento Online</Text>
 							Protocolo de Atendimento Online <br /> <br />
 							Autorização para Atendimento Online para Menores – 2 tipos de
@@ -170,7 +171,7 @@ export function Accordions() {
 							psicológico? <br />
 							Quantidade de Profissionais por Estado <br />
 							Tabela de Referência – CFP <br />
-						</Text>
+						</Box>
 					}
 				/>
 			</Accordion>

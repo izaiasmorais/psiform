@@ -1,5 +1,5 @@
 import { Flex, Image, Text } from "@chakra-ui/react";
-import { GlobalButton } from "./Button";
+import { GButton } from "./GButton";
 import PlatformImg from "../assets/plataforma.png";
 import { Layout } from "./Layout";
 
@@ -17,7 +17,11 @@ export function Main() {
 						resoluções 06/2019 e 04/2020 do CFP para facilitar o seu dia a dia
 						na clínica.
 					</Text>
-					<GlobalButton isWhite={false} text="Tenho interesse" />
+					<GButton
+						isWhite={false}
+						text="Tenho interesse"
+						maxWidth="max-content"
+					/>
 				</Flex>
 
 				<Image src={PlatformImg} alt="Plataforma de Formulários Psicológicos" />

@@ -1,6 +1,7 @@
 import { Forms } from "./components/Forms";
 import { Header } from "./components/Header";
 import { Main } from "./components/Main";
+import { Reports } from "./components/Reports";
 import { Resources } from "./components/Resources";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
 			<Main />
 			<Resources />
 			<Forms />
+			<Reports />
 		</>
 	);
 }

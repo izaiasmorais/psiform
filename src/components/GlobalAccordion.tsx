@@ -23,6 +23,7 @@ export function GlobalAccordion({ title, description }: GlobalAccordionProps) {
 			border="none"
 			borderRadius="1rem"
 			p=".2rem"
+			bg="white"
 			boxShadow={shadow}
 			_hover={{ bgColor: "#fafafa" }}
 		>

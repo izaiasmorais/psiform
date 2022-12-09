@@ -1,5 +1,5 @@
 import { Flex, Image, Link, Text } from "@chakra-ui/react";
-import { GlobalButton } from "./Button";
+import { GButton } from "./GButton";
 import { Layout } from "./Layout";
 
 export function Header() {
@@ -22,7 +22,12 @@ export function Header() {
 					<Text>Soluções</Text>
 					<Text>Recursos</Text>
 					<Link href="#price">Preços</Link>
-					<GlobalButton isWhite text="Área de membros" />
+
+					<GButton
+						isWhite
+						text="Área de membros"
+						link="https://acesso.psiform.com.br/logar"
+					/>
 				</Flex>
 			</Flex>
 		</Layout>

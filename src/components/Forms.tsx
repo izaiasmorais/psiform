@@ -1,5 +1,6 @@
-import { Flex, Text } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
 import { Accordions } from "./Accordions";
+import { GTitle } from "./GTitle";
 import { Layout } from "./Layout";
 
 export function Forms() {
@@ -12,9 +13,7 @@ export function Forms() {
 				justify="center"
 				direction="column"
 			>
-				<Text as="h1" fontWeight="500" fontSize="4xl">
-					Formulários Psicológicos Atualizados
-				</Text>
+				<GTitle title="Formulários Psicológicos Atualizadoss" />
 
 				<Accordions />
 			</Flex>
