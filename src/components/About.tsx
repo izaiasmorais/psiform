@@ -14,7 +14,6 @@ export function About() {
 				py="3rem"
 				direction="column"
 				id="about"
-				textAlign="center"
 			>
 				<GTitle title="Sobre a plataforma de formulários" />
 

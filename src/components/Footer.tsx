@@ -1,5 +1,11 @@
 import { Flex, Link, Text } from "@chakra-ui/react";
-import { ArrowFatUp, InstagramLogo, Users, WhatsappLogo } from "phosphor-react";
+import {
+	ArrowFatUp,
+	EnvelopeSimple,
+	InstagramLogo,
+	Users,
+	WhatsappLogo,
+} from "phosphor-react";
 import { Layout } from "./Layout";
 import { PsiformLogo } from "./PsiformLogo";
 
@@ -13,6 +19,8 @@ export function Footer() {
 					color="white"
 					justify="space-between"
 					align="center"
+					gap="3rem"
+					direction={["column", "column", "row"]}
 				>
 					<Flex direction="column" gap="1rem">
 						<PsiformLogo isWhite />
@@ -20,14 +28,17 @@ export function Footer() {
 					</Flex>
 
 					<Flex gap="1.5rem" align="center">
-						<Link href="https://acesso.psiform.com.br/logar">
-							<Users size={32} />
+						<Link href="https://api.whatsapp.com/send?1=pt_BR&phone=5511992367278">
+							<WhatsappLogo size={32} />
 						</Link>
 						<Link href="https://www.instagram.com/psi.form/">
 							<InstagramLogo size={32} />
 						</Link>
-						<Link href="https://api.whatsapp.com/send?1=pt_BR&phone=5511992367278">
-							<WhatsappLogo size={32} />
+						<Link href="mailto:atendimento.psiform@gmail.com">
+							<EnvelopeSimple size={32} />
+						</Link>
+						<Link href="https://acesso.psiform.com.br/logar">
+							<Users size={32} />
 						</Link>
 						<Link href="#header">
 							<ArrowFatUp size={32} />

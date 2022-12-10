@@ -35,23 +35,6 @@ export function HeaderMenu() {
 					</Link>
 				</MenuItem>
 
-				<MenuItem mb="1" bg="transparent">
-					<Link
-						w="100%"
-						textDecoration="none"
-						fontSize="1rem"
-						href="#resources"
-					>
-						Recursos
-					</Link>
-				</MenuItem>
-
-				<MenuItem mb="1" bg="transparent">
-					<Link w="100%" textDecoration="none" fontSize="1rem" href="#about">
-						Sobre
-					</Link>
-				</MenuItem>
-
 				<Flex p="2">
 					<GButton
 						link="https://acesso.psiform.com.br/logar"

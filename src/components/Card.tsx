@@ -12,7 +12,7 @@ export function Card({ icon, text, title }: CardProps) {
 		<Flex direction="column" alignItems="center" justify="center">
 			<Flex gap=".5rem" align="center" justify="center" mb="1rem">
 				{icon}
-				<Text as="h3" fontSize="2xl" fontWeight="500">
+				<Text as="h3" fontSize={["lg", "lg", "2xl"]} fontWeight="500">
 					{title}
 				</Text>
 			</Flex>

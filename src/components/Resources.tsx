@@ -7,12 +7,20 @@ export function Resources() {
 	return (
 		<Flex bg="gray.50" w="full">
 			<Layout>
-				<Flex align="center" justify="space-around" w="full" py="3rem">
+				<Flex
+					align="center"
+					justify="space-around"
+					w="full"
+					py="3rem"
+					gap="2rem"
+					direction={["column", "column", "row"]}
+				>
 					<Card
 						icon={<FileDoc size={32} />}
 						title="Documentos Atualizados"
 						text="São +1.000 páginas de documentos atualizados: relatórios, atestados, laudos, pareceres , declarações, anamneses, atendimento online e todos os demais tipos de documentos que precisamos para uma boa atuação profissional, incluso laudos prontos, baseados no DSM-5"
 					/>
+
 					<Card
 						icon={<Files size={32} />}
 						title="Deixe do seu jeito"

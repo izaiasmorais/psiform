@@ -6,7 +6,13 @@ import { Layout } from "./Layout";
 export function Main() {
 	return (
 		<Layout>
-			<Flex py="3rem" alignItems="center" justify="space-between" gap="3rem">
+			<Flex
+				py="3rem"
+				alignItems="center"
+				justify="space-between"
+				gap="2rem"
+				direction={["column", "column", "row"]}
+			>
 				<Flex direction="column">
 					<Text as="h1" fontSize="2.25rem" fontWeight="500" lineHeight="40px">
 						Plataforma de Formulários Psicológicos

@@ -5,7 +5,7 @@ export function Accordions() {
 	return (
 		<>
 			<SimpleGrid
-				gridTemplateColumns="1fr 1fr"
+				gridTemplateColumns={["1fr", "1fr", "1fr 1fr"]}
 				w="full"
 				mt="3rem"
 				border="none"

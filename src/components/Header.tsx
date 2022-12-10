@@ -1,5 +1,4 @@
-import { Flex, Link, Text } from "@chakra-ui/react";
-import { CaretDown } from "phosphor-react";
+import { Flex, Link } from "@chakra-ui/react";
 import { GButton } from "./GButton";
 import { HeaderMenu } from "./HeaderMenu";
 import { Layout } from "./Layout";
@@ -17,7 +16,13 @@ export function Header() {
 				id="header"
 			>
 				<PsiformLogo />
-				<Flex as="nav" alignItems="center" gap="2rem">
+
+				<Flex
+					as="nav"
+					alignItems="center"
+					gap="2rem"
+					display={["none", "none", "flex"]}
+				>
 					<Link href="https://psiform.com.br/digital/" w="full">
 						Anamnese digital
 					</Link>
@@ -28,6 +33,9 @@ export function Header() {
 						text="Área de membros"
 						link="https://acesso.psiform.com.br/logar"
 					/>
+				</Flex>
+
+				<Flex display={["flex", "flex", "none"]}>
 					<HeaderMenu />
 				</Flex>
 			</Flex>
