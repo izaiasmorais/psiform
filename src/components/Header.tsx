@@ -1,6 +1,9 @@
-import { Flex, Image, Link, Text } from "@chakra-ui/react";
+import { Flex, Link, Text } from "@chakra-ui/react";
+import { CaretDown } from "phosphor-react";
 import { GButton } from "./GButton";
+import { HeaderMenu } from "./HeaderMenu";
 import { Layout } from "./Layout";
+import { PsiformLogo } from "./PsiformLogo";
 
 export function Header() {
 	return (
@@ -11,23 +14,21 @@ export function Header() {
 				justify="space-between"
 				w="100%"
 				py="1rem"
+				id="header"
 			>
-				<Flex alignItems="center" gap=".5rem">
-					<Image src="/psiform.png" alt="Formulários Psicológicos" />
-					<Text as="h1" fontSize="1.25rem" fontWeight={600}>
-						Psiform
-					</Text>
-				</Flex>
+				<PsiformLogo />
 				<Flex as="nav" alignItems="center" gap="2rem">
-					<Text>Soluções</Text>
-					<Text>Recursos</Text>
-					<Link href="#price">Preços</Link>
-
+					<Link href="https://psiform.com.br/digital/" w="full">
+						Anamnese digital
+					</Link>
+					<Link href="#resources">Recursos</Link>
+					<Link href="#about">Sobre</Link>
 					<GButton
 						isWhite
 						text="Área de membros"
 						link="https://acesso.psiform.com.br/logar"
 					/>
+					<HeaderMenu />
 				</Flex>
 			</Flex>
 		</Layout>

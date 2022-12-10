@@ -12,6 +12,7 @@ export function Forms() {
 				align="center"
 				justify="center"
 				direction="column"
+				id="resources"
 			>
 				<GTitle title="Formulários Psicológicos Atualizadoss" />
 

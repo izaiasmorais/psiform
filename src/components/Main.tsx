@@ -18,6 +18,7 @@ export function Main() {
 						na clínica.
 					</Text>
 					<GButton
+						link="https://pay.hotmart.com/O54058716T?checkoutMode=10"
 						isWhite={false}
 						text="Tenho interesse"
 						maxWidth="max-content"

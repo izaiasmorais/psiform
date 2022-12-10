@@ -1,4 +1,5 @@
 import { About } from "./components/About";
+import { Footer } from "./components/Footer";
 import { Forms } from "./components/Forms";
 import { Header } from "./components/Header";
 import { Main } from "./components/Main";
@@ -16,6 +17,7 @@ function App() {
 			<Reports />
 			<About />
 			<Pricing />
+			<Footer />
 		</>
 	);
 }

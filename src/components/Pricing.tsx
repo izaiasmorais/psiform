@@ -8,7 +8,7 @@ export function Pricing() {
 
 	return (
 		<Layout>
-			<Flex w="full" align="center" justify="center" gap="3rem" mb="10rem">
+			<Flex w="full" align="center" justify="center" gap="3rem" mb="3rem">
 				<Flex
 					direction="column"
 					align="center"
