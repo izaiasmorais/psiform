@@ -1,5 +1,5 @@
-import { Box, Flex, Text } from "@chakra-ui/react";
-import { CheckCircle, WhatsappLogo } from "phosphor-react";
+import { Button, Divider, Flex, Link, Text } from "@chakra-ui/react";
+import { CheckCircle, Handshake, WhatsappLogo } from "phosphor-react";
 import { Layout } from "./Layout";
 
 export function Pricing() {
@@ -8,8 +8,15 @@ export function Pricing() {
 
 	return (
 		<Layout>
-			<Flex w="full" align="center" justify="center" gap="4.5rem" mb="10rem">
-				<Flex direction="column" align="center" justify="center" gap=".5rem">
+			<Flex w="full" align="center" justify="center" gap="3rem" mb="10rem">
+				<Flex
+					direction="column"
+					align="center"
+					justify="center"
+					gap=".5rem"
+					textAlign="center"
+					maxW="190px"
+				>
 					<WhatsappLogo size={32} />
 					<Text as="strong">Tem Alguma Dúvida?</Text>
 					<Text as="p" fontSize="xs">
@@ -24,7 +31,8 @@ export function Pricing() {
 					direction="column"
 					align="center"
 					justify="center"
-					w="580px"
+					maxW="560px"
+					w="full"
 				>
 					<Flex
 						bg="blue.900"
@@ -52,24 +60,48 @@ export function Pricing() {
 						<Flex align="end">Pagamento único</Flex>
 					</Flex>
 
-					<Flex direction="column">
-						<Flex align="center" justify="center">
+					<Flex direction="column" gap="1rem" mb="3rem">
+						<Flex align="center" justify="center" gap=".5rem">
 							<CheckCircle size={24} />
 							+160 Documentos psicológicos atualizados
 						</Flex>
-						<Flex align="center" justify="center">
+						<Divider />
+						<Flex align="center" justify="center" gap=".5rem">
 							<CheckCircle size={24} />
 							Incluso: 35 Laudos prontos, baseados no DSM.5
 						</Flex>
-						<Flex align="center" justify="center">
+						<Divider />
+						<Flex align="center" justify="center" gap=".5rem">
 							<CheckCircle size={24} />
 							Bônus: +500 Questões de concurso para psicólogos
 						</Flex>
 					</Flex>
+
+					<Button
+						bg="#FF0000"
+						color="white"
+						borderRadius="50px"
+						mb="3rem"
+						_hover={{ bg: "#e50000" }}
+					>
+						<Link
+							href="https://pay.hotmart.com/O54058716T?checkoutMode=10"
+							textDecoration="none !important"
+						>
+							Tenho interesse
+						</Link>
+					</Button>
 				</Flex>
 
-				<Flex direction="column" align="center" justify="center" gap=".5rem">
-					<WhatsappLogo size={32} />
+				<Flex
+					direction="column"
+					align="center"
+					justify="center"
+					gap=".5rem"
+					textAlign="center"
+					maxW="190px"
+				>
+					<Handshake size={32} />
 					<Text as="strong">Reembolso Hotmart Fácil</Text>
 					<Text as="p" fontSize="xs">
 						Reembolso com 1 clique nos 7 primeiros dias.
