@@ -52,7 +52,7 @@ export function Pricing() {
 					align="center"
 					justify="center"
 					maxW="560px"
-					minW={["300px", "500px", "530px"]}
+					minW={["300px", "450px", "530px"]}
 					w="full"
 				>
 					<Flex

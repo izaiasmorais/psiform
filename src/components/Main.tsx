@@ -37,8 +37,8 @@ export function Main() {
 				<Image
 					src={PlatformImg}
 					alt="Plataforma de Formulários Psicológicos"
-					width="567px"
-					height="348px"
+					maxW="567px"
+					w="full"
 				/>
 			</Flex>
 		</Layout>
