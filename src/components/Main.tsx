@@ -26,12 +26,20 @@ export function Main() {
 					<GButton
 						link="https://pay.hotmart.com/O54058716T?checkoutMode=10"
 						isWhite={false}
-						text="Tenho interesse"
 						maxWidth="max-content"
+						text="Tenho interesse"
+						title="Tenho interesse em assinar o produto"
+						id="tenho-interesse"
+						aria-label="tenho-interesse"
 					/>
 				</Flex>
 
-				<Image src={PlatformImg} alt="Plataforma de Formulários Psicológicos" />
+				<Image
+					src={PlatformImg}
+					alt="Plataforma de Formulários Psicológicos"
+					width="567px"
+					height="348px"
+				/>
 			</Flex>
 		</Layout>
 	);

@@ -98,20 +98,23 @@ export function Pricing() {
 						</Flex>
 					</Flex>
 
-					<Button
-						bg="#FF0000"
-						color="white"
-						borderRadius="50px"
-						mb="3rem"
-						_hover={{ bg: "#e50000" }}
+					<Link
+						href="https://pay.hotmart.com/O54058716T?checkoutMode=10"
+						textDecoration="none !important"
 					>
-						<Link
-							href="https://pay.hotmart.com/O54058716T?checkoutMode=10"
-							textDecoration="none !important"
+						<Button
+							bg="#FF0000"
+							color="white"
+							borderRadius="50px"
+							mb="3rem"
+							title="Tenho interesse em assinar o produto"
+							id="tenho-interesse"
+							aria-label="tenho-interesse"
+							_hover={{ bg: "#e50000" }}
 						>
 							Tenho interesse
-						</Link>
-					</Button>
+						</Button>
+					</Link>
 				</Flex>
 
 				<Flex

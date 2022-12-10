@@ -31,6 +31,9 @@ export function Header() {
 					<GButton
 						isWhite
 						text="Área de membros"
+						title="Acessar a área de membros da psiform"
+						id="area-de-membros"
+						aria-label="area-de-membros"
 						link="https://acesso.psiform.com.br/logar"
 					/>
 				</Flex>

@@ -87,6 +87,9 @@ export function Reports() {
 						<GButton
 							isWhite={false}
 							text="Visualizar Modelo Laudo - DSM.5"
+							title="Visualizar Modelo Laudo - DSM.5"
+							id="visualizar-modelo-laudo-dsm-5"
+							aria-label="visualizar-modelo-laudo-dsm-5"
 							link="https://psiform.com.br/wp-content/uploads/2022/07/Disforia-de-Genero.docx.pdf"
 							w="full"
 							h="49px"
@@ -95,6 +98,9 @@ export function Reports() {
 						<GButton
 							isWhite={false}
 							text="Visualizar Modelo Anamnese"
+							title="Visualizar Modelo Anamnese"
+							id="visualizar-modelo-anamnese"
+							aria-label="visualizar-modelo-anamnese"
 							link="https://psiform.com.br/wp-content/uploads/2022/07/Anamnese-Adulto.docx.pdf"
 							w="full"
 							h="49px"

@@ -7,7 +7,12 @@ interface Props {
 export function PsiformLogo({ isWhite }: Props) {
 	return (
 		<Flex alignItems="center" gap=".5rem">
-			<Image src="/psiform.png" alt="Formulários Psicológicos" />
+			<Image
+				src="/psiform.png"
+				alt="Formulários Psicológicos"
+				width="40px"
+				height="40px"
+			/>
 			<Text
 				as="h1"
 				fontSize="1.25rem"
