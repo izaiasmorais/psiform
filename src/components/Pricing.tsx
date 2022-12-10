@@ -34,7 +34,9 @@ export function Pricing() {
 					gap=".5rem"
 					textAlign="center"
 				>
-					<WhatsappLogo size={32} />
+					<Link href="https://api.whatsapp.com/send?1=pt_BR&phone=5511992367278">
+						<WhatsappLogo size={32} />
+					</Link>
 					<Text as="strong">Tem Alguma Dúvida?</Text>
 					<Text as="p" fontSize="xs">
 						Entre em contato clicando no ícone
