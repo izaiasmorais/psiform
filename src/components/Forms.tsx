@@ -14,7 +14,7 @@ export function Forms() {
 				direction="column"
 				id="resources"
 			>
-				<GTitle title="Formulários Psicológicos Atualizadoss" />
+				<GTitle title="Formulários Psicológicos Atualizados" />
 
 				<Accordions />
 			</Flex>

@@ -6,7 +6,7 @@ interface Props {
 
 export function GTitle({ title }: Props) {
 	return (
-		<Text as="h2" fontWeight="500" fontSize={["3xl", "3xl", "3xl"]}>
+		<Text as="h2" fontWeight="500" fontSize={["2xl", "2xl", "3xl"]}>
 			{title}
 		</Text>
 	);

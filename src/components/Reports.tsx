@@ -15,7 +15,7 @@ export function Reports() {
 					py="3rem"
 					direction="column"
 				>
-					<GTitle title="Laudos prontos baseados no DSM.5" />
+					<GTitle title="Laudos Prontos e Baseados no DSM.5" />
 
 					<Accordion allowToggle mt="2rem" w="full">
 						<GAccordion

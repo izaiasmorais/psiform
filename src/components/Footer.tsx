@@ -10,6 +10,14 @@ import { Layout } from "./Layout";
 import { PsiformLogo } from "./PsiformLogo";
 
 export function Footer() {
+	function scrollToTop() {
+		window.scroll({
+			top: 0,
+			left: 0,
+			behavior: "smooth",
+		});
+	}
+
 	return (
 		<Flex bg="blue.900">
 			<Layout>
@@ -40,7 +48,7 @@ export function Footer() {
 						<Link href="https://acesso.psiform.com.br/logar">
 							<Users size={32} />
 						</Link>
-						<Link href="#header">
+						<Link onClick={() => scrollToTop()}>
 							<ArrowFatUp size={32} />
 						</Link>
 					</Flex>

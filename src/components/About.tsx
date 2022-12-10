@@ -15,7 +15,7 @@ export function About() {
 				direction="column"
 				id="about"
 			>
-				<GTitle title="Sobre a plataforma de formulários" />
+				<GTitle title="Sobre a Plataforma de Formulários" />
 
 				<SimpleGrid
 					gridTemplateColumns={["1fr", "1fr", "1fr 1fr"]}
@@ -26,7 +26,7 @@ export function About() {
 					<Card
 						icon={<FileText size={32} />}
 						title="Como vou acessar os formulários?"
-						text="Após o pagamento lhe enviaremos um e-mail com login e senha para acessar a plataforma,
+						text="Após o pagamento, lhe enviaremos um e-mail com login e senha para acessar a plataforma,
 						que poderá ser acessada pelo computador ou qualquer dispositivo móvel."
 					/>
 					<Card
@@ -38,12 +38,12 @@ export function About() {
 					<Card
 						icon={<ShoppingCart size={32} />}
 						title="Acesso vitalício, sem mensalidades"
-						text="O acesso vitalício, com direito à atualizações de novos formulários, sem mensalidades ou anuidades."
+						text="O acesso é vitalício, com direito à atualizações de novos formulários, sem mensalidades ou anuidades."
 					/>
 					<Card
 						icon={<Pencil size={32} />}
 						title="Acesso à +500 questões de concursos"
-						text="Tenha acesso a mais de 500 Questões de concursos para psicólogos."
+						text="Tenha acesso a mais de 500 questões de concursos para psicólogos."
 					/>
 				</SimpleGrid>
 			</Flex>
