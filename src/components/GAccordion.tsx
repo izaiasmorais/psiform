@@ -8,12 +8,12 @@ import {
 import { Plus, Minus } from "phosphor-react";
 import { ReactNode, useState } from "react";
 
-interface GlobalAccordionProps {
+interface GAccordionProps {
 	title: string;
 	description: ReactNode;
 }
 
-export function GlobalAccordion({ title, description }: GlobalAccordionProps) {
+export function GAccordion({ title, description }: GAccordionProps) {
 	const [isOpen, setIsOpen] = useState(false);
 	const shadow =
 		"rgb(145 158 171 / 20%) 0px 0px 2px 0px, rgb(145 158 171 / 12%) 0px 12px 24px -4px";

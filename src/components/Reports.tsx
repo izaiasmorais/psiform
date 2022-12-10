@@ -1,6 +1,6 @@
 import { Accordion, Flex, Link, Text } from "@chakra-ui/react";
 import { GButton } from "./GButton";
-import { GlobalAccordion } from "./GlobalAccordion";
+import { GAccordion } from "./GAccordion";
 import { GTitle } from "./GTitle";
 import { Layout } from "./Layout";
 
@@ -18,7 +18,7 @@ export function Reports() {
 					<GTitle title="Laudos prontos baseados no DSM.5" />
 
 					<Accordion allowToggle mt="2rem" w="full">
-						<GlobalAccordion
+						<GAccordion
 							title="Laudos prontos (baseados no DSM.5)"
 							description={
 								<Text>

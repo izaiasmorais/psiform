@@ -1,5 +1,5 @@
 import { SimpleGrid, Accordion, Text, Box } from "@chakra-ui/react";
-import { GlobalAccordion } from "./GlobalAccordion";
+import { GAccordion } from "./GAccordion";
 
 export function Accordions() {
 	return (
@@ -12,7 +12,7 @@ export function Accordions() {
 				gap="1rem"
 			>
 				<Accordion allowToggle>
-					<GlobalAccordion
+					<GAccordion
 						title="Anamneses"
 						description={
 							<Text>
@@ -32,7 +32,7 @@ export function Accordions() {
 				</Accordion>
 
 				<Accordion allowToggle>
-					<GlobalAccordion
+					<GAccordion
 						title="Avaliação Vasectomia"
 						description={
 							<Text>
@@ -45,7 +45,7 @@ export function Accordions() {
 				</Accordion>
 
 				<Accordion allowToggle>
-					<GlobalAccordion
+					<GAccordion
 						title="Avaliação bariátrica"
 						description={
 							<Text>
@@ -58,7 +58,7 @@ export function Accordions() {
 				</Accordion>
 
 				<Accordion allowToggle>
-					<GlobalAccordion
+					<GAccordion
 						title="TEA"
 						description={
 							<Text>
@@ -77,7 +77,7 @@ export function Accordions() {
 			</SimpleGrid>
 
 			<Accordion allowToggle w="full" mt="1rem">
-				<GlobalAccordion
+				<GAccordion
 					title="Demais formulários atualizados"
 					description={
 						<Box>
