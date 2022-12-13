@@ -4,6 +4,9 @@ import PlatformImg from "../assets/plataforma.png";
 import { Layout } from "./Layout";
 
 export function Main() {
+	const shadow =
+		"rgb(145 158 171 / 20%) 0px 0px 2px 0px, rgb(145 158 171 / 12%) 0px 12px 24px -4px";
+
 	return (
 		<Layout>
 			<Flex
@@ -18,10 +21,10 @@ export function Main() {
 						Plataforma de Formulários Psicológicos
 					</Text>
 					<Text as="p" my="1.5rem">
-						A plataforma psiform centraliza formulários e documentos
+						A plataforma Psiform centraliza formulários e documentos
 						psicológicos, revisados e atualizados por profissionais dentro das
-						resoluções 06/2019 e 04/2020 do CFP para facilitar o seu dia a dia
-						na clínica.
+						resoluções 06/2019 e 04/2020 do CFP, facilitando o dia a dia em sua
+						clínica.
 					</Text>
 					<GButton
 						link="https://pay.hotmart.com/O54058716T?checkoutMode=10"
@@ -37,8 +40,10 @@ export function Main() {
 				<Image
 					src={PlatformImg}
 					alt="Plataforma de Formulários Psicológicos"
-					maxW="567px"
+					maxW="610px"
 					w="full"
+					borderRadius=".5rem"
+					boxShadow={shadow}
 				/>
 			</Flex>
 		</Layout>

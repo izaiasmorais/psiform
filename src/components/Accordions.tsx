@@ -46,7 +46,7 @@ export function Accordions() {
 
 				<Accordion allowToggle>
 					<GAccordion
-						title="Avaliação bariátrica"
+						title="Avaliação Bariátrica"
 						description={
 							<Text>
 								Roteiro para Avaliação de Bariátrica <br />
@@ -110,25 +110,26 @@ export function Accordions() {
 							Contrato de Prestação de Serviços <br />
 							Contrato de Prestação de Serviços – 3 tipos de modelos <br />
 							Contrato de Locação de Salas <br />
-							Contrato de Sublocação de Salas – 2 tipos de modelos <br />
+							Contrato de Sublocação de Salas – 2 tipos de modelos <br /> <br />
 							Convênios <br />
 							Reembolso de Convênio <br />
-							Solicitação de Credenciamento de Convênio <br />
+							Solicitação de Credenciamento de Convênio <br /> <br />
 							Encaminhamento <br />
 							Encaminhamento Avaliação e Acompanhamento Psiquiátrico <br />
-							Encaminhamento – 2 tipos de modelos <br />
+							Encaminhamento – 2 tipos de modelos <br /> <br />
 							Imposto de Renda <br />
 							Declaração de Renda de Profissional Liberal <br />
 							Declaração de Trabalho Autônomo <br />
 							Recibo de Imposto de Renda. <br />
+							<br />
 							Parecer Psicológico <br />
-							Parecer Psicológico <br />
+							Parecer Psicológico <br /> <br />
 							Recibos <br />
 							Recibo – 3 Tipos de Modelos <br />
-							Recibo de Entrega de Prontuário <br />
+							Recibo de Entrega de Prontuário <br /> <br />
 							Relatórios <br />
 							Relatório Multiprofissional <br />
-							Relatório Psicológico – 2 Tipos de Modelos <br />
+							Relatório Psicológico – 2 Tipos de Modelos <br /> <br />
 							RH <br />
 							Entrevista de Desligamento – 4 Tipos de Modelos <br />
 							Entrevista Devolutiva. <br />
@@ -145,8 +146,8 @@ export function Accordions() {
 							Diagnóstico Institucional. <br />
 							Gestão por Competências <br />
 							TCLE <br />
-							Termo de consentimento Livre e Esclarecido <br />
-							Informativos <br />
+							<br />
+							<Text fontWeight="500">Informativos</Text> <br />
 							Documentos psicológicos têm prazo de validade? <br />
 							Onde consta esta informação? <br />O que devo fazer quando um
 							documento que não consta na resolução? <br />

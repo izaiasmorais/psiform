@@ -1,8 +1,9 @@
-import { Flex, SimpleGrid } from "@chakra-ui/react";
+import { Flex, Image, SimpleGrid } from "@chakra-ui/react";
 import { DeviceMobile, FileText, Pencil, ShoppingCart } from "phosphor-react";
 import { Card } from "./Card";
 import { GTitle } from "./GTitle";
 import { Layout } from "./Layout";
+import Mockup from "../assets/desktopmockup.jpeg";
 
 export function About() {
 	return (
@@ -15,6 +16,10 @@ export function About() {
 				direction="column"
 				id="about"
 			>
+				<Flex mb="3rem">
+					<Image src={Mockup} width="300px" />
+				</Flex>
+
 				<GTitle title="Sobre a Plataforma de Formulários" />
 
 				<SimpleGrid

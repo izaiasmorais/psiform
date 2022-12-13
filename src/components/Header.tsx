@@ -24,7 +24,7 @@ export function Header() {
 					display={["none", "none", "flex"]}
 				>
 					<Link href="https://psiform.com.br/digital/" w="full">
-						Anamnese digital
+						Anamnese Digital
 					</Link>
 					<Link href="#resources">Recursos</Link>
 					<Link href="#about">Sobre</Link>
