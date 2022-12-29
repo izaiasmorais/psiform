@@ -76,7 +76,7 @@ export function Pricing() {
 						<Flex align="end" gap=".5rem">
 							R$
 							<Text fontSize="5xl" fontWeight="400" lineHeight="1">
-								67
+								77
 							</Text>
 						</Flex>
 
